@@ -22,6 +22,8 @@ If [available in Hex](https://hex.pm/docs/publish), the package can be installed
     end
     ```
 
+  3. Install databases. here https://github.com/elixytics/ua_inspector#parser-databases
+
 ## Usage
 
 ##### Basic
