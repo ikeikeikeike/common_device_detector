@@ -1,5 +1,5 @@
 defmodule CommonDeviceDetector.DownloadTasks do
-  alias Mix.UAInspector.Download
+  alias CommonDeviceDetector.Download
 
   @start_app :ua_inspector
 
@@ -12,8 +12,8 @@ defmodule CommonDeviceDetector.DownloadTasks do
     Application.ensure_all_started @start_app
 
     # Download ymls
-    Download.Databases.run ["--force"]
-    Download.ShortCodeMaps.run ["--force"]
+    Download.Databases.run
+    Download.ShortCodeMaps.run
 
     # Signal shutdown
     IO.puts "Success!"
