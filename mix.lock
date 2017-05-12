@@ -1,9 +1,15 @@
-%{"con_cache": {:hex, :con_cache, "0.11.1", "acbe5a1d10c47faba30d9629c9121e1ef9bca0aa5eddbb86f4e777bd9f9f9b6f", [:mix], [{:exactor, "~> 2.2.0", [hex: :exactor, optional: false]}]},
+%{"certifi": {:hex, :certifi, "1.1.0", "c9b71a547016c2528a590ccfc28de786c7edb74aafa17446b84f54e04efc00ee", [:rebar3], []},
+  "con_cache": {:hex, :con_cache, "0.11.1", "acbe5a1d10c47faba30d9629c9121e1ef9bca0aa5eddbb86f4e777bd9f9f9b6f", [:mix], [{:exactor, "~> 2.2.0", [hex: :exactor, optional: false]}]},
   "cowboy": {:hex, :cowboy, "1.0.4", "a324a8df9f2316c833a470d918aaf73ae894278b8aa6226ce7a9bf699388f878", [:rebar, :make], [{:cowlib, "~> 1.0.0", [hex: :cowlib, optional: false]}, {:ranch, "~> 1.0", [hex: :ranch, optional: false]}]},
   "cowlib": {:hex, :cowlib, "1.0.2", "9d769a1d062c9c3ac753096f868ca121e2730b9a377de23dec0f7e08b1df84ee", [:make], []},
   "exactor": {:hex, :exactor, "2.2.0", "2a7418b82d974fe8276edd62c1facf4a9dc06339cdf11b5dcd10359e107fe5c3", [:mix], []},
+  "hackney": {:hex, :hackney, "1.8.0", "8388a22f4e7eb04d171f2cf0285b217410f266d6c13a4c397a6c22ab823a486c", [:rebar3], [{:certifi, "1.1.0", [hex: :certifi, optional: false]}, {:idna, "4.0.0", [hex: :idna, optional: false]}, {:metrics, "1.0.1", [hex: :metrics, optional: false]}, {:mimerl, "1.0.2", [hex: :mimerl, optional: false]}, {:ssl_verify_fun, "1.1.1", [hex: :ssl_verify_fun, optional: false]}]},
+  "idna": {:hex, :idna, "4.0.0", "10aaa9f79d0b12cf0def53038547855b91144f1bfcc0ec73494f38bb7b9c4961", [:rebar3], []},
+  "metrics": {:hex, :metrics, "1.0.1", "25f094dea2cda98213cecc3aeff09e940299d950904393b2a29d191c346a8486", [:rebar3], []},
+  "mimerl": {:hex, :mimerl, "1.0.2", "993f9b0e084083405ed8252b99460c4f0563e41729ab42d9074fd5e52439be88", [:rebar3], []},
   "plug": {:hex, :plug, "1.1.6", "8927e4028433fcb859e000b9389ee9c37c80eb28378eeeea31b0273350bf668b", [:mix], [{:cowboy, "~> 1.0", [hex: :cowboy, optional: true]}]},
   "poolboy": {:hex, :poolboy, "1.5.1", "6b46163901cfd0a1b43d692657ed9d7e599853b3b21b95ae5ae0a777cf9b6ca8", [:rebar], []},
   "ranch": {:hex, :ranch, "1.2.1", "a6fb992c10f2187b46ffd17ce398ddf8a54f691b81768f9ef5f461ea7e28c762", [:make], []},
-  "ua_inspector": {:hex, :ua_inspector, "0.11.1", "dd7a7cd7541bb2cc750af50973adcccca171bcbc38fc6c8145e94a0e51150e5d", [:mix], [{:poolboy, "~> 1.0", [hex: :poolboy, optional: false]}]},
-  "yamerl": {:git, "https://github.com/yakaz/yamerl.git", "ae810a808817d9482b4628ae3e20d746e3729fe0", []}}
+  "ssl_verify_fun": {:hex, :ssl_verify_fun, "1.1.1", "28a4d65b7f59893bc2c7de786dec1e1555bd742d336043fe644ae956c3497fbe", [:make, :rebar], []},
+  "ua_inspector": {:hex, :ua_inspector, "0.13.0", "abce52d0e3f61ca804f9b982e9403fa8f0746c2b30b8e823a94bfbff0e1c79c3", [:mix], [{:hackney, "~> 1.0", [hex: :hackney, optional: false]}, {:poolboy, "~> 1.0", [hex: :poolboy, optional: false]}, {:yamerl, "~> 0.3", [hex: :yamerl, optional: false]}]},
+  "yamerl": {:hex, :yamerl, "0.4.0", "ae215b1242810a9bc07716b88062f1bfe06f6bc7cf68372091f630baa536df79", [:rebar3], []}}
