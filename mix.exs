@@ -28,6 +28,11 @@ defmodule CommonDeviceDetector.Mixfile do
       {:ua_inspector, "~> 0.13"},
       {:plug, ">= 0.0.0"},
       {:con_cache, ">= 0.0.0"},
+
+      {:credo, "~> 0.7", only: [:dev, :test]},
+      {:ex_doc, "~> 0.14", only: :dev},
+      {:earmark, ">= 0.0.0", only: :dev},
+      {:inch_ex, ">= 0.0.0", only: :docs}
     ]
   end
 

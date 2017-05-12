@@ -1,6 +1,6 @@
 # CommonDeviceDetector
 
-Faster device detector.
+Detect devices that desktop, mobile, smartphone and tabled form User Agent.
 
 ## Installation
 
