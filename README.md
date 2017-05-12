@@ -1,5 +1,12 @@
 # CommonDeviceDetector
 
+[![Build Status](http://img.shields.io/travis/ikeikeikeike/common_device_detector.svg?style=flat-square)](http://travis-ci.org/ikeikeikeike/common_device_detector)
+[![Ebert](https://ebertapp.io/github/ikeikeikeike/common_device_detector.svg)](https://ebertapp.io/github/ikeikeikeike/common_device_detector)
+[![Hex version](https://img.shields.io/hexpm/v/common_device_detector.svg "Hex version")](https://hex.pm/packages/common_device_detector)
+[![Inline docs](https://inch-ci.org/github/ikeikeikeike/common_device_detector.svg)](http://inch-ci.org/github/ikeikeikeike/common_device_detector)
+[![Lisence](https://img.shields.io/hexpm/l/ltsv.svg)](https://github.com/ikeikeikeike/common_device_detector/blob/master/LICENSE)
+
+
 Detect devices that desktop, mobile, smartphone and tabled form User Agent.
 
 ## Installation
