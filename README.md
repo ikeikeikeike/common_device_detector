@@ -76,4 +76,35 @@ CommonDeviceDetector can download database on Production environment
 
 ```zsh
 $ bin/myapp command CommonDeviceDetector.DownloadTasks run
+Loading ua_inspector..
+Starting dependencies..
+UAInspector Database Download
+Download path: /path/to/ua_inspector
+This command will overwrite any existing files!
+.. downloading: bot.bots.yml
+.. downloading: browser_engine.browser_engine.yml
+.. downloading: client.feed_readers.yml
+.. downloading: client.mobile_apps.yml
+.. downloading: client.mediaplayers.yml
+.. downloading: client.pim.yml
+.. downloading: client.browsers.yml
+.. downloading: client.libraries.yml
+.. downloading: device.televisions.yml
+.. downloading: device.consoles.yml
+.. downloading: device.car_browsers.yml
+.. downloading: device.cameras.yml
+.. downloading: device.portable_media_player.yml
+.. downloading: device.mobiles.yml
+.. downloading: os.oss.yml
+.. downloading: vendor_fragment.vendorfragments.yml
+Download complete!
+UAInspector Short Code Map Download
+Download path: /path/to/ua_inspector
+This command will overwrite any existing files!
+.. downloading: short_codes.client_browsers.yml
+.. downloading: short_codes.device_brands.yml
+.. downloading: short_codes.mobile_browsers.yml
+.. downloading: short_codes.oss.yml
+Download complete!
+Success!
 ```
