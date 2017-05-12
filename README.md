@@ -17,7 +17,7 @@ If [available in Hex](https://hex.pm/docs/publish), the package can be installed
 
 ```elixir
 def deps do
-  [{:common_device_detector, "~> 0.2"}]
+  [{:common_device_detector, "~> x.x"}]
 end
 ```
 
@@ -82,7 +82,7 @@ false
 CommonDeviceDetector can download database on Production environment
 
 ```zsh
-$ bin/myapp command CommonDeviceDetector.DownloadTasks run
+$ bin/myapp command Elixir.CommonDeviceDetector.DownloadTasks run
 Loading ua_inspector..
 Starting dependencies..
 UAInspector Database Download
