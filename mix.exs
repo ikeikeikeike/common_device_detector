@@ -8,7 +8,7 @@ defmodule CommonDeviceDetector.Mixfile do
   def project do
     [app: :common_device_detector,
      name: "CommonDeviceDetector",
-     version: "0.3.0",
+     version: "0.3.1",
      elixir: ">= 1.0.0",
      description: @description,
      build_embedded: Mix.env == :prod,
@@ -25,11 +25,11 @@ defmodule CommonDeviceDetector.Mixfile do
 
   defp deps do
     [
-      {:ua_inspector, "~> 0.13"},
+      {:ua_inspector, "~> 0.14"},
       {:plug, ">= 0.0.0"},
       {:con_cache, ">= 0.0.0"},
 
-      {:credo, "~> 0.7", only: [:dev, :test]},
+      {:credo, "~> 0.8", only: [:dev, :test]},
       {:ex_doc, "~> 0.14", only: :dev},
       {:earmark, ">= 0.0.0", only: :dev},
       {:inch_ex, ">= 0.0.0", only: :docs}
